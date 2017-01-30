@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="An interactive getting started guide for Brackets.">
+<link rel="stylesheet" type="text/css" href="Styles.css">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<title>Home - Suzanne Collins</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script type="text/javascript" src="Scripts.js"></script>    
+<script type="application/ld+json">
+{
+    <div itemscope itemtype="http://schema.org/Book">
+    <div itemprop="author" itemscope itemtype="http://schema.org/Person">
+    Written by: <span itemprop="name">Suzanne Collins</span></div>
+    <div>Available in <link itemprop="bookFormat" href="http://schema.org/Ebook">Ebook <link itemprop="bookFormat" href="http://schema.org/Paperback">Paperback <link itemprop="bookFormat" href="http://schema.org/Hardcover">Hardcover </div>
+    </div>
+
+}
+</script>
+
+    <style>
+input:invalid {
+    border: 2px solid red;
+}
+
+input:required {
+    border: 2px solid #fa8686;
+}
+
+input:valid {
+    border: 2px solid #8181fa;
+}
+</style>
+    
+</head>
+
+
+
+
+<body onload="checkCookie()" >
+    <header>
+    <h1>Suzanne Collins</h1>
+</header>
+
+
+<nav id="menu">
+    <ul>
+           <li><a href="Home.html" >Home</a></li><!--
+        --><li><a href="Works.html">Works</a></li><!--
+        --><li><a href="Interview.html">Interview</a></li><!--
+        --><li><a href="Biography.html">Biography</a></li><!--
+        --><li><a class="active" href="Testimonials.html">Testimonials</a></li><!--
+        --><li style="float:right; border-left:1px solid black"><a id="account" href="#account">Account</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+
+<aside class="asideContent">
+<div>QuickLinks</div>
+    <p class="quickLinks">
+    <a href="http://www.scholastic.com/browse/search/kids?query=Suzanne+Collins&x=0&y=0">Scholastic</a><br>       
+    <a href="http://www.penguin.com/search/suzanne-collins?_qry=suzanne%20collins">Penguin Group</a><br> 
+    <a href="http://www.npr.org/search/index.php?searchinput=suzanne+collins">NPR</a><br> 
+    <a href="http://www.penguinrandomhouseaudio.com/search/?q=Suzanne+collins">Listening Library</a><br> 
+    <a href="http://www.indiebound.org/search/book?searchfor=Suzanne+Collins">Indie Bound</a><br> 
+    <a href="http://www.barnesandnoble.com/s/Suzanne+Collins?_requestid=299155">Barnes & Noble</a><br> 
+    <a href="http://www.booksamillion.com./search?id=6662626421086&query=Suzanne+Collins&where=book_author">Books-A-Million</a><br> 
+    <a href="https://www.amazon.com/s/ref=nb_sb_ss_c_0_15?url=search-alias%3Dstripbooks&field-keywords=suzanne+collins&sprefix=Suzanne+Collins%2Caps%2C221">Amazon</a> <br>
+    <a href="https://www.authorsguild.org/?s=Suzanne+Collins">Authors Guild</a> <br>
+    <a href="http://www.authorsguild.org/membersites.html"><img src="images/findauthors.gif" alt="Author's Guild Icon"/></a>
+    </p>
+</aside>
+
+<section>
+<h2>Testimonials!</h2>
+   <form>
+					<div>
+			<!--<h2>Fan Testimonials</h2>-->
+			<h3>For any fan that wants to provide feedback on any of Suzanne's books.</h3>
+                      
+		</div>						
+			<ul class="form">
+			
+					<li id="li_1" >
+		<label class="description" for="element_1">First Name</label>
+		<div>
+			<input id="element_1" name="element_1" class="element text small" type="text" maxlength="255" value="" placeholder="John" required pattern="[A-Za-z]{1,20}" title="John"/> 
+		</div> 
+		</li>
+                <br>
+                <li id="li_1" >
+		<label class="description" for="element_1">Last Name</label>
+		<div>
+			<input id="element_1" name="element_1" class="element text small" type="text"  value="" placeholder="Doe" required pattern="[A-Za-z]{1,20}"/> 
+		</div> 
+		</li>
+                <br>
+                <li id="li_3" >
+                
+		<label class="description" for="element_3">Select a Book </label>
+		<div>
+		<select class="element select medium" id="element_3" name="element_3" required> 
+			<option value="" selected="selected"></option>
+<option value="1" >The Hunger Games</option>
+<option value="2" >Catching Fire</option>
+<option value="3" >Mockingjay</option>
+<option value="4" >Book Four</option>
+
+		</select>
+		</div> 
+		</li>		<li id="li_2" >
+		<br>
+                <label class="description" for="element_2">Thoughts on Book?</label>
+		<div>
+			<textarea id="element_2" name="element_2" class="element textarea medium"  required="required"></textarea> 
+		</div> 
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="1140287" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Submit" />
+		</li>
+			</ul>
+       <br>
+		</form>	
+</section>
+
+<footer>
+Copyright © Suzanne Collins
+</footer>
+
+</div>
+
+</body>
+
+</html>

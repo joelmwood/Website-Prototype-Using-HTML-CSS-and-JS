@@ -1,0 +1,170 @@
+body{
+    background-color:#d2d2e0;
+}
+
+nav{
+    margin:auto;
+    text-align:center;
+    width:80%;
+    background-color: white;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #fccb72;
+    width: calculated-width;
+    margin: 0 auto;
+}
+
+li {
+    display:inline;
+}
+
+li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    margin: auto;
+    text-decoration: none;
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #ffa500;
+    text-decoration: underline;
+}
+a{
+    margin-right: -8px;
+}
+.active{
+    background-color: orange;
+    pointer-events: none;
+    cursor: default;
+}
+header {
+    background-color:orange;
+    color:black;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    //border-radius:10px; 
+    width:100%;
+    margin: auto;
+    //margin-top:100px;
+    
+}
+.content{
+    width:80%;
+    margin:auto;
+    background-color: white;
+    height: auto;
+    position: relative;
+}
+section {
+    float:left;    
+    width:80%;     
+}
+aside{    
+    //min-height:1000px;
+    height:100%;
+    min-width: 10px;    
+    float:right;    
+    width:20%;
+    background-color: #fccb72;    
+}
+
+aside div{
+    background-color:orange;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+footer {
+    background-color:orange;
+    color:black;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    //border-radius:10px; 
+}
+h1, h2, h3, h4, h5, h6{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
+p{
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
+.menu {
+    color:#FFF;
+    height:2em;
+    padding:.5em;
+    position:absolute;
+    top:200px;
+    width:100%;
+}
+nav.fixed {
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    z-index:999;
+    width: 100%;
+    border-style: solid;
+    border-left-style:none;
+    border-right-style:none;
+    border-width: thin;
+    border-color: black;
+}
+figure{
+    float: left;
+    margin: 10px;
+    padding: 0;
+
+}
+figcaption{
+    text-align: center;
+}
+.mainText{
+    padding: 10px;
+}
+blockquote{
+    margin-bottom: 10px
+}
+cite{
+    float:right;
+}
+.sectionHead{
+    padding-top: 10px;
+}
+.smallFigCaption{
+    max-width: 200px;
+    margin: auto;
+}
+.worksimages{    
+    width: 200px;
+    height: auto;
+}
+form{
+    background-color: white;
+    //margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.form{
+    background-color: white;
+}
+textArea{
+    margin-bottom: 10px;
+    height: 100px;
+    width: 600px;
+}
